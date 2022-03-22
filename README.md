@@ -1,6 +1,6 @@
 # Learning Resilient Radio Resource Management Policies with Graph Neural Networks
 
-This repository contains the source code for learning resilient resource management policies in wireless networks, including power control and user selection, via graph neural network (GNN) parameterizations. In particular, the aforementioned radio resource management (RRM) policies are trained in such a way to maximize a network-wide objective, while satisfying per-user minimum-capacity constraints that *adapt* to the underlying network conditions. For example, if a user is in poor network conditions (due to a poor signal-to-noise ratio (SNR) or a strong incoming interference-to-noise ratio (INR)), then the minimum-capacity constraint for that user is relaxed just enough to make the optimization problem feasible, hence allowing fair allocation of wireless resources across the network. We use a shared GNN architecture to parameterize the RRM policies, and we train the GNN parameters, alongside the rest of the optimization variables, using an unsupervised primal-dual approach. Please refer to [the accompanying paper](https://arxiv.org/abs/2203.ABCDE) for more details.
+This repository contains the source code for learning resilient resource management policies in wireless networks, including power control and user selection, via graph neural network (GNN) parameterizations. In particular, the aforementioned radio resource management (RRM) policies are trained in such a way to maximize a network-wide objective, while satisfying per-user minimum-capacity constraints that *adapt* to the underlying network conditions. For example, if a user is in poor network conditions (due to a poor signal-to-noise ratio (SNR) or a strong incoming interference-to-noise ratio (INR)), then the minimum-capacity constraint for that user is relaxed just enough to make the optimization problem feasible, hence allowing fair allocation of wireless resources across the network. We use a shared GNN architecture to parameterize the RRM policies, and we train the GNN parameters, alongside the rest of the optimization variables, using an unsupervised primal-dual approach. Please refer to [the accompanying paper](https://arxiv.org/abs/2203.11012) for more details.
 
 ## Training and Evaluation
 
@@ -38,7 +38,7 @@ Please use the following BibTeX citation if you use this repository in your work
 @article{Resilient_RRM_GNN_naderializadeh2022,
   title={Learning Resilient Radio Resource Management Policies with Graph Neural Networks},
   author={Navid Naderializadeh and Mark Eisen and Alejandro Ribeiro},
-  journal={arXiv preprint arXiv:2203.ABCDE},
+  journal={arXiv preprint arXiv:2203.11012},
   year={2022}
 }
 ```
